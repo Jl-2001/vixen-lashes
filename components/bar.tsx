@@ -21,21 +21,21 @@ export const NavBar = () => {
             </Link>
             <div className="flex gap-2">
                 <Link
-                    href={{ pathname: "/About" }}
+                    href="/#about"
                     className="text-black hover:bg-black/5 px-3 py-2 
                     rounded-lg transition"
                 >
                     About
                 </Link>
                 <Link
-                    href="/Calendly"
+                    href="/#calendly"
                     className="text-black hover:bg-black/5 px-3 py-2 
                     rounded-lg transition"
                 >
                     Calendly
                 </Link>
                 <Link
-                    href="/contact"
+                    href="/#footer"
                     className="text-black hover:bg-black/5 px-3 py-2 
                     rounded-lg transition"
                 >
